@@ -315,6 +315,7 @@ public class UIInGame : UIElement
     public void SetProgress(float a, float b)
     {
         //progressText.text = a.ToString() + "/" + b.ToString();
+        Reset();
         progressText.text = GameManager.Instance.UserData.coin.ToString();
         passengerText.text = (DayManager.Instance.TotalDayPassenger - DayManager.Instance.ServedPassenger).ToString();
 

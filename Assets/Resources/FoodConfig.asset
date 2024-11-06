@@ -15,7 +15,7 @@ MonoBehaviour:
   FoodList:
   - Id: 0
     Name: Soda
-    Icon: {fileID: -1600512150, guid: cab146cc1a5bfc747833a9801c3ab4b9, type: 3}
+    Icon: {fileID: 1308087460, guid: cab146cc1a5bfc747833a9801c3ab4b9, type: 3}
     Price: 5
     DayUnlock: 0
     foodStacks:
@@ -41,7 +41,7 @@ MonoBehaviour:
     - {fileID: 6321073394782621133, guid: db21645d6bd21844092c3fc5dd5cb63b, type: 3}
   - Id: 3
     Name: Big Burger
-    Icon: {fileID: 1657731146, guid: 64eca55c6e671ed4abf23e9434d2dcab, type: 3}
+    Icon: {fileID: -1312621042, guid: 64eca55c6e671ed4abf23e9434d2dcab, type: 3}
     Price: 55
     DayUnlock: 2
     foodStacks:
