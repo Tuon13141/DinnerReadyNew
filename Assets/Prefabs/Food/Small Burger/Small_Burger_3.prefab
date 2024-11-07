@@ -24,7 +24,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474082640942752051}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.26, z: -0}
   m_LocalScale: {x: 5, y: 5, z: 5}
@@ -34,6 +33,7 @@ Transform:
   - {fileID: 3439115626835383430}
   - {fileID: 2083806850731779846}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2331222930537764791
 MonoBehaviour:
@@ -57,9 +57,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6368617212490445660}
     m_Modifications:
+    - target: {fileID: 1167756462461220524, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869652298713430611, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676860971026510138, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911950140752932208, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159652850548378558, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278955357757466602, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_Name
       value: Burger_Cheese
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_IsActive
@@ -109,7 +137,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4803954106777758966, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197559035772242545, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101095420176493435, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315897925112444217, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -5840610296369068097, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -127,9 +172,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6368617212490445660}
     m_Modifications:
+    - target: {fileID: 1167756462461220524, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869652298713430611, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676860971026510138, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911950140752932208, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159652850548378558, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278955357757466602, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_Name
       value: Burger_Cheese (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_IsActive
@@ -187,7 +260,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4803954106777758966, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197559035772242545, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101095420176493435, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315897925112444217, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -5840610296369068097, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -205,9 +295,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6368617212490445660}
     m_Modifications:
+    - target: {fileID: 1167756462461220524, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869652298713430611, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676860971026510138, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911950140752932208, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159652850548378558, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278955357757466602, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_Name
       value: Burger_Cheese (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3618607133075569311, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
       propertyPath: m_IsActive
@@ -265,7 +383,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4803954106777758966, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197559035772242545, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101095420176493435, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315897925112444217, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -5840610296369068097, guid: 38c74299938e5584cb11a0edfe189cb2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

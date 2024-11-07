@@ -104,10 +104,19 @@ PrefabInstance:
       value: CrinkleFries_Zilla
       objectReference: {fileID: 0}
     - target: {fileID: 689105381284075028, guid: b0490fd1c295459419a0bebd23e7ea26, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 689105381284075028, guid: b0490fd1c295459419a0bebd23e7ea26, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8629253249358720972, guid: b0490fd1c295459419a0bebd23e7ea26, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -2479882831932656637, guid: b0490fd1c295459419a0bebd23e7ea26, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

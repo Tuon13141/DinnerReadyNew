@@ -61,6 +61,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 134004644747557727, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 763294368724312549, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -113,7 +117,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7744460381998239081, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275082945143529021, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5228468547131601777, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -134,6 +147,10 @@ PrefabInstance:
     - target: {fileID: 134004644747557727, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
       propertyPath: m_Name
       value: Soda_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 134004644747557727, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763294368724312549, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
       propertyPath: m_LocalScale.x
@@ -187,7 +204,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7744460381998239081, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275082945143529021, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5228468547131601777, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -208,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 134004644747557727, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
       propertyPath: m_Name
       value: Soda_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 134004644747557727, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763294368724312549, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
       propertyPath: m_LocalScale.x
@@ -253,7 +283,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7744460381998239081, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275082945143529021, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5228468547131601777, guid: acadd4406f27702448bfba0ba4a3909e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
