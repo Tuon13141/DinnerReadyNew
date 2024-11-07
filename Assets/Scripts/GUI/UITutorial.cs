@@ -28,7 +28,7 @@ public class UITutorial : UIElement
         base.Show();
         stage1.SetActive(true);
         stage1Button.onClick.AddListener(Stage1Button);
-        UIAnimationManager.Instance.PulsingAnimation(pointerStage1, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
+        VFXAnimationManager.Instance.PulsingAnimation(pointerStage1, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
         stage2.SetActive(false);
         stage3.SetActive(false);
         stageCompleted.SetActive(false);
@@ -38,7 +38,7 @@ public class UITutorial : UIElement
     {
         stage1.SetActive(false);
         stage2.SetActive(true);
-        UIAnimationManager.Instance.PulsingAnimation(pointerStage2, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
+        VFXAnimationManager.Instance.PulsingAnimation(pointerStage2, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
 
         stage2Button.onClick.AddListener(Stage2Button);
         GameUI.Instance.Get<UIInGame>().Tutorial();
@@ -48,7 +48,7 @@ public class UITutorial : UIElement
     {
         stage2.SetActive(false);
         stage3.SetActive(true);
-        UIAnimationManager.Instance.PulsingAnimation(pointerStage3, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
+        VFXAnimationManager.Instance.PulsingAnimation(pointerStage3, new Vector3(1.2f, 1.2f, 1.2f), Vector3.one, 0.5f);
         GameUI.Instance.Get<UIInGame>().StopTutorial();
     }
 

@@ -11,6 +11,6 @@ public class FoodSpot : MonoBehaviour
     {
         Vector3 targetPosition = topSpot.position;
         //Debug.Log(targetPosition);
-        UIAnimationManager.Instance.MovingToTarget(coinIcon, targetPosition, 3f);
+        VFXAnimationManager.Instance.MovingToTarget(coinIcon, targetPosition, 3f);
     }
 }

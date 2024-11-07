@@ -140,7 +140,7 @@ public class NextPassengerController : MonoBehaviour
         passengerStage = PassengerStage.None;
     }
 
-    public void Reset(bool isRetry = false)
+    public void Reset(bool isRetry)
     {
         if (!firstLoad)
         {

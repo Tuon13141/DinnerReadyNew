@@ -64,7 +64,7 @@ public class GameManager : Singleton<GameManager>
                     UserData.day = DayManager.Instance.DayIndex + 1;
                     if(UserData.day >= DayManager.Instance.MaxDay)
                     {
-                        UserData.day = DayManager.Instance.MaxDay - 1;
+                        DayManager.Instance.GenerateRandomDay();
                     }
                 }
               

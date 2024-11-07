@@ -23,7 +23,7 @@ public class UILose : UIElement
     public override void Show()
     {
         base.Show();
-        UIAnimationManager.Instance.PulsingAnimation(failedText, new Vector3(1.5f, 1.5f, 1.5f), Vector3.one, 0.5f);
+        VFXAnimationManager.Instance.PulsingAnimation(failedText, new Vector3(1.5f, 1.5f, 1.5f), Vector3.one, 0.5f);
         retryButton.gameObject.SetActive(false);
         StartCoroutine(ShowRetryButton());
     }

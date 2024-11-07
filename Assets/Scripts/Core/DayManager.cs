@@ -13,6 +13,7 @@ public class DayManager : Singleton<DayManager>, IOnStart
     [SerializeField] Transform spawnFoodPoint;
     [SerializeField] Transform despawnFoodPoint;
 
+    //for Debuging !!
     [SerializeField] bool useDayInUserData = false;
     public bool UseDayInUserData => useDayInUserData;
 
@@ -169,7 +170,7 @@ public class DayManager : Singleton<DayManager>, IOnStart
             }
             else
             {
-                UIAnimationManager.Instance.PlayAngryEmoji();
+                VFXAnimationManager.Instance.PlayAngryEmoji();
                 StartCoroutine(EndGameResult(false));
                 return;
             } 
@@ -208,11 +209,12 @@ public class DayManager : Singleton<DayManager>, IOnStart
         }
     }
 
-    void Reset(bool needToRemoveAllFood)
+    void Reset(bool isRetry)
     {
-        UIAnimationManager.Instance.StopAngryEmoji();
-        if (needToRemoveAllFood)
+        
+        if (isRetry)
         {
+            VFXAnimationManager.Instance.StopAngryEmoji();
             foodObjectPool.RemoveAllFood();
         }
 
@@ -248,5 +250,49 @@ public class DayManager : Singleton<DayManager>, IOnStart
             GameManager.Instance.ChangeState(GameStates.Lose);
         }
        
+    }
+
+    public void GenerateRandomDay()
+    {
+        int maxPassengersPerDay = dayIndex + 1;
+        Day newDay = new Day();
+        newDay.DayID = dayConfig.Days.Count;
+
+        int passengerCount = Random.Range(1, maxPassengersPerDay + 1);
+        for (int j = 0; j < passengerCount; j++)
+        {
+            Passenger newPassenger = new Passenger();
+
+            int orderCount = Random.Range(1, 5);
+            for (int k = 0; k < orderCount; k++)
+            {
+                FoodOrder newOrder = new FoodOrder();
+
+                int randomFoodId = GetRandomFoodId(FoodDict);
+
+                if (FoodDict.TryGetValue(randomFoodId, out Food selectedFood))
+                {
+                    int maxQuantity = selectedFood.foodStacks.Count;
+                    newOrder.Quantity = Random.Range(1, maxQuantity + 1);
+                    newOrder.FoodId = randomFoodId;
+                }
+
+                newPassenger.FoodOrderList.Add(newOrder);
+            }
+
+            newDay.PassengerList.Add(newPassenger);
+        }
+
+        dayConfig.Days.Add(newDay);
+
+        DayDict.Add(newDay.DayID, newDay);
+        MaxDay++;
+    }
+
+    private int GetRandomFoodId(Dictionary<int, Food> foodDict)
+    {
+        List<int> foodIds = new List<int>(foodDict.Keys);
+        int randomIndex = Random.Range(0, foodIds.Count);
+        return foodIds[randomIndex];
     }
 }

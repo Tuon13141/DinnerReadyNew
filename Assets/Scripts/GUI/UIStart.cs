@@ -20,7 +20,7 @@ public class UIStart : UIElement
     public override void Show()
     {
         base.Show();
-        UIAnimationManager.Instance.PulsingAnimation(startButton.gameObject, new Vector3(1.2f, 1.2f, 1.2f), new Vector3(0.7f, 0.7f, 0.7f), 0.5f);
+        VFXAnimationManager.Instance.PulsingAnimation(startButton.gameObject, new Vector3(1.2f, 1.2f, 1.2f), new Vector3(0.7f, 0.7f, 0.7f), 0.5f);
     }
 
     private void Start()

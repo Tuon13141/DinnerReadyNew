@@ -12739,8 +12739,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642659593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.27, y: -0.34, z: -2.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -15.02, y: -0.92, z: 1.17}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1529560595}
@@ -27738,7 +27738,7 @@ GameObject:
   - component: {fileID: 1460264739}
   - component: {fileID: 1460264740}
   m_Layer: 0
-  m_Name: UiAnimationManager
+  m_Name: VFXAnimationManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27768,7 +27768,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460264738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d12c6f99c7afef479646d01dc681477, type: 3}
+  m_Script: {fileID: 11500000, guid: b1a6fdfd399e24b438fe6f4ee0cb1206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   happyEmoji: {fileID: 308519162}
@@ -40034,8 +40034,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054436992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.1, y: -0.65, z: -5.29}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 308519163}
