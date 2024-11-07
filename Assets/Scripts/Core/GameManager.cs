@@ -24,8 +24,9 @@ public class GameManager : Singleton<GameManager>
 
     private void Start()
     {
-        GameUI.Instance.Get<UIStart>().Show();
+        //GameUI.Instance.Get<UIStart>().Show();
         DayManager.Instance.OnStart();
+        ChangeState(GameStates.Start);
     }
 
    
