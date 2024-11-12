@@ -324,12 +324,12 @@ public class UIInGame : UIElement
     {
         progressText.text = "0";
         Reset();
-        progressText.text = GameManager.Instance.UserData.coin.ToString();
+        //progressText.text = GameManager.Instance.UserData.coin.ToString();
         passengerText.text = (DayManager.Instance.TotalDayPassenger - DayManager.Instance.ServedPassenger).ToString();
 
 
         if (sliderCoroutine != null) StopCoroutine(sliderCoroutine);
-        sliderCoroutine = StartCoroutine(AnimateFillAmount(a / b));
+        //sliderCoroutine = StartCoroutine(AnimateFillAmount(a / b));
     }
     private IEnumerator AnimateFillAmount(float targetFillAmount)
     {
