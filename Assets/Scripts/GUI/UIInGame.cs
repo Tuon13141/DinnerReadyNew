@@ -30,6 +30,7 @@ public class UIInGame : UIElement
     [SerializeField] Button divideButton;
     [SerializeField] Button equalButton;
     [SerializeField] Button undoButton;
+    [SerializeField] Button doneButton;
 
     [SerializeField] Button decimalButton;
 
@@ -68,6 +69,19 @@ public class UIInGame : UIElement
             numberButton.UIInGame = this;
         }
     }
+
+    private void Start()
+    {
+        equalButton.onClick.AddListener(EqualButton);
+        decimalButton.onClick.AddListener(DecimalButton);
+        plusButton.onClick.AddListener(PlusButton);
+        minusButton.onClick.AddListener(MinusButton);
+        multiplyButton.onClick.AddListener(MutiplyButton);
+        divideButton.onClick.AddListener(DivideButton);
+        undoButton.onClick.AddListener(UndoButton);
+        doneButton.onClick.AddListener(DoneButton);
+    }
+
 
     public void UndoButton()
     {
@@ -143,17 +157,22 @@ public class UIInGame : UIElement
         }
     }
 
+    public void DoneButton()
+    {
+        EqualButton();
+        float result_1 = ConvertStringToFloat(number_1);
+        DayManager.Instance.CheckAnswer(result_1);
+    }
     public void EqualButton()
     {
         CaculateLastMath();
         DisplayValueText(number_1);
-  
+
         number_2 = "";
         caculatorStage = CaculatorStage.FirstEnter;
         mathematicalType = MathematicalType.None;
 
         float result_1 = ConvertStringToFloat(number_1);
-        DayManager.Instance.CheckAnswer(result_1);
     }
     public void PlusButton()
     {
@@ -300,28 +319,17 @@ public class UIInGame : UIElement
         return result_1;
     }
 
-    private void Start()
-    {
-        equalButton.onClick.AddListener(EqualButton);
-        decimalButton.onClick.AddListener(DecimalButton);
-        plusButton.onClick.AddListener(PlusButton);
-        minusButton.onClick.AddListener(MinusButton);
-        multiplyButton.onClick.AddListener(MutiplyButton);
-        divideButton.onClick.AddListener(DivideButton);
-        undoButton.onClick.AddListener(UndoButton);
-    }
-
     Coroutine sliderCoroutine;
     public void SetProgress(float a, float b)
     {
-        //progressText.text = a.ToString() + "/" + b.ToString();
+        progressText.text = "0";
         Reset();
-        progressText.text = GameManager.Instance.UserData.coin.ToString();
+        //progressText.text = GameManager.Instance.UserData.coin.ToString();
         passengerText.text = (DayManager.Instance.TotalDayPassenger - DayManager.Instance.ServedPassenger).ToString();
 
 
         if (sliderCoroutine != null) StopCoroutine(sliderCoroutine);
-        sliderCoroutine = StartCoroutine(AnimateFillAmount(a / b));
+        //sliderCoroutine = StartCoroutine(AnimateFillAmount(a / b));
     }
     private IEnumerator AnimateFillAmount(float targetFillAmount)
     {

@@ -55,7 +55,8 @@ public class VFXAnimationManager : Singleton<VFXAnimationManager>
         angryEmoji.SetActive(true);
        
         angryEmoji.transform.localScale = Vector3.one;
-        StartCoroutine(ScaleOverTime(angryEmoji, 0.5f, new Vector3(1.3f, 1.3f, 1.3f), new Vector3(1f, 1f, 1f), true));
+        //StartCoroutine(ScaleOverTime(angryEmoji, 0.5f, new Vector3(1.3f, 1.3f, 1.3f), new Vector3(1f, 1f, 1f), true));
+        StartCoroutine(MoveAndFade(angryEmoji, angryEmojiStartPosition, Vector3Int.up, 1f, 2));
     }
 
     public void StopAngryEmoji()

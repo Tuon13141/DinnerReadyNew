@@ -64,13 +64,13 @@ public class GameManager : Singleton<GameManager>
                     UserData.day = DayManager.Instance.DayIndex + 1;
                     if(UserData.day >= DayManager.Instance.MaxDay)
                     {
-                        DayManager.Instance.GenerateRandomDay();
+                        //DayManager.Instance.GenerateRandomDay();
                     }
                 }
               
                 GameUI.Instance.Get<UIInGame>().Hide();
                 GameUI.Instance.Get<UIWin>().Show();
-                GameUI.Instance.Get<UIWin>().SetCoinText(DayManager.Instance.TotalDayCoin);
+                GameUI.Instance.Get<UIWin>().SetCoinText(0);
                 GameUI.Instance.Get<UIWin>().SetDayText(DayManager.Instance.DayIndex + 1);
                 GameUI.Instance.Get<UIWin>().SetVisitorText(DayManager.Instance.TotalDayPassenger);
                 break;
