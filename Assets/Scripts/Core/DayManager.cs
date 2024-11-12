@@ -178,28 +178,28 @@ public class DayManager : Singleton<DayManager>, IOnStart
             }
             else
             {
-                //VFXAnimationManager.Instance.PlayAngryEmoji();
-                //GameUI.Instance.Get<UIRedScreen>().Show();
-                //StartCoroutine(EndGameResult(false));
+                VFXAnimationManager.Instance.PlayAngryEmoji();
+                GameUI.Instance.Get<UIRedScreen>().Show();
+                StartCoroutine(EndGameResult(false));
 
-                foreach (FoodController controller in currentFoodControllers)
-                {
-                    controller.ChangeState(FoodStage.OnBilled);
-                }
-                ServedPassenger++;
-                GameUI.Instance.Get<UIInGame>().SetProgress(DayCoin, TotalDayCoin);
-                waveCoin = 0;
+                //foreach (FoodController controller in currentFoodControllers)
+                //{
+                //    controller.ChangeState(FoodStage.OnBilled);
+                //}
+                //ServedPassenger++;
+                //GameUI.Instance.Get<UIInGame>().SetProgress(DayCoin, TotalDayCoin);
+                //waveCoin = 0;
 
-                passengerManager.CurrentPassengerController.ChangeState(PassengerStage.OnWalkingOut);
-                //WaveFinished = true;
-                currentFoodControllers.Clear();
+                //passengerManager.CurrentPassengerController.ChangeState(PassengerStage.OnWalkingOut);
+                ////WaveFinished = true;
+                //currentFoodControllers.Clear();
 
 
-                if (isFinishAllWaves)
-                {
-                    StartCoroutine(EndGameResult(false));
-                    return;
-                }
+                //if (isFinishAllWaves)
+                //{
+                //    StartCoroutine(EndGameResult(false));
+                //    return;
+                //}
                 return;
             } 
         }

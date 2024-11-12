@@ -299,6 +299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_menu
       objectReference: {fileID: 0}
+    - target: {fileID: 2979894080766782364, guid: 34e6cab05fb3e78458d7a2d75ceb7744, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -550,6 +554,10 @@ PrefabInstance:
     - target: {fileID: 6468731122500114336, guid: e1809da1a9f9ea44b97b7b89cd741bc1, type: 3}
       propertyPath: m_Name
       value: SM_donut_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468731122500114336, guid: e1809da1a9f9ea44b97b7b89cd741bc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1593,6 +1601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fish_stick_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929259610958700084, guid: 273cf55c7e4d02943a6debfb017e3f85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1894,6 +1906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_cash_desk (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4325510951464152063, guid: 54332ee5f10fbcb4da2a45fa682cd220, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1915,6 +1931,10 @@ PrefabInstance:
     - target: {fileID: 3713981408527299992, guid: 7fa15c7b2f39d184ca56105224540339, type: 3}
       propertyPath: m_Name
       value: SM_juice_dispenser
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713981408527299992, guid: 7fa15c7b2f39d184ca56105224540339, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4089662934116790050, guid: 7fa15c7b2f39d184ca56105224540339, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2079,6 +2099,10 @@ PrefabInstance:
     - target: {fileID: 3052867059472320370, guid: 385589c608aed2d49a5eecafabb5b9d5, type: 3}
       propertyPath: m_Name
       value: SM_hot_dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052867059472320370, guid: 385589c608aed2d49a5eecafabb5b9d5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3074,6 +3098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_menu (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2979894080766782364, guid: 34e6cab05fb3e78458d7a2d75ceb7744, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3136,6 +3164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_pie_5
       objectReference: {fileID: 0}
+    - target: {fileID: 747310498913964613, guid: 2e29eddbcf640ae4c8aaaf6b846f0531, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3197,6 +3229,10 @@ PrefabInstance:
     - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
       propertyPath: m_Name
       value: SM_lamp_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3757,6 +3793,10 @@ PrefabInstance:
     - target: {fileID: 1894127876923040071, guid: f966a43e5d63942469943b82650b2c75, type: 3}
       propertyPath: m_Name
       value: SM_fork (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894127876923040071, guid: f966a43e5d63942469943b82650b2c75, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4338,6 +4378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stool (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 680221406506774949, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.4408045
@@ -4462,6 +4506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_knife_6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6275821911312297454, guid: 7b1e8b2ffed15f64ebe5f9b1f4c7ebe2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6652910026091509588, guid: 7b1e8b2ffed15f64ebe5f9b1f4c7ebe2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.637718
@@ -4563,6 +4611,10 @@ PrefabInstance:
     - target: {fileID: 9022083296025433297, guid: 0456aa389cf5ec340862f7cc80b34e51, type: 3}
       propertyPath: m_Name
       value: SM_coffee_pot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022083296025433297, guid: 0456aa389cf5ec340862f7cc80b34e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4669,6 +4721,10 @@ PrefabInstance:
     - target: {fileID: 30083919153562816, guid: b45587d157fba2f449efc5bb6c6bafef, type: 3}
       propertyPath: m_Name
       value: SM_sugar_bowl (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 30083919153562816, guid: b45587d157fba2f449efc5bb6c6bafef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 801976663870660218, guid: b45587d157fba2f449efc5bb6c6bafef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4812,7 +4868,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &285684945
 MonoBehaviour:
@@ -5712,7 +5768,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0.07619696, y: 0, z: 0, w: 0.9970928}
-  m_LocalPosition: {x: -0.025, y: 1.26, z: -11.044}
+  m_LocalPosition: {x: -5.8, y: 1.26, z: -11.044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6785,6 +6841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_showcase (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4919402203193132662, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5696748490486029516, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.606805
@@ -7033,6 +7093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_sengwich
       objectReference: {fileID: 0}
+    - target: {fileID: 3894581061336159794, guid: 93a82d7ab9785054584eeeb8a43a2fd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4415643627222961288, guid: 93a82d7ab9785054584eeeb8a43a2fd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.853805
@@ -7218,6 +7282,10 @@ PrefabInstance:
     - target: {fileID: 6020901502000495346, guid: 8287ad473d0a7b044b49db814904c616, type: 3}
       propertyPath: m_Name
       value: SM_donut
+      objectReference: {fileID: 0}
+    - target: {fileID: 6020901502000495346, guid: 8287ad473d0a7b044b49db814904c616, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6396618525714849864, guid: 8287ad473d0a7b044b49db814904c616, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7585,6 +7653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_chair
       objectReference: {fileID: 0}
+    - target: {fileID: 4800577420793732505, guid: 3ffe304c59eb39244b2f32aaa5d51996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5320091560457242403, guid: 3ffe304c59eb39244b2f32aaa5d51996, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.840805
@@ -7783,7 +7855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413014073}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 3.84, y: -1.17, z: -6.37}
+  m_LocalPosition: {x: 8.22, y: -1.17, z: -6.37}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7841,6 +7913,10 @@ PrefabInstance:
     - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
       propertyPath: m_Name
       value: SM_plate (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10171,7 +10247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538152754}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -4.0299997, y: -1.17, z: -6.37}
+  m_LocalPosition: {x: -8.65, y: -1.17, z: -6.37}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10986,6 +11062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_french_fries (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859553599398907639, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.434968
@@ -11212,6 +11292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_menu (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2979894080766782364, guid: 34e6cab05fb3e78458d7a2d75ceb7744, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11295,6 +11379,10 @@ PrefabInstance:
     - target: {fileID: 7270330141351444013, guid: 83c5e71b7a1a7ef47ad5ed38e1abd73b, type: 3}
       propertyPath: m_Name
       value: SM_steak_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270330141351444013, guid: 83c5e71b7a1a7ef47ad5ed38e1abd73b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8047569776771409047, guid: 83c5e71b7a1a7ef47ad5ed38e1abd73b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11605,6 +11693,10 @@ PrefabInstance:
     - target: {fileID: 195187046821674204, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
       propertyPath: m_Name
       value: SM_ketchup (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 195187046821674204, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 720190257217168998, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12324,6 +12416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_plate (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12486,7 +12582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624965967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.89}
+  m_LocalPosition: {x: -6.01, y: 0, z: 0.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12495,7 +12591,7 @@ Transform:
   - {fileID: 2091890129}
   - {fileID: 413014074}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &634432762
 PrefabInstance:
@@ -12655,7 +12751,7 @@ Transform:
   - {fileID: 1636708244}
   - {fileID: 497104567}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &642423371
 PrefabInstance:
@@ -13057,6 +13153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_tacos
       objectReference: {fileID: 0}
+    - target: {fileID: 3339758221249076224, guid: 70c4686fe4bca1847bf1f73094bf7041, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13215,6 +13315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_knife_6
       objectReference: {fileID: 0}
+    - target: {fileID: 6275821911312297454, guid: 7b1e8b2ffed15f64ebe5f9b1f4c7ebe2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6652910026091509588, guid: 7b1e8b2ffed15f64ebe5f9b1f4c7ebe2, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -13342,6 +13446,10 @@ PrefabInstance:
     - target: {fileID: 6981183873264278206, guid: 34f994a59ce7c6b4492820a3b2b93d94, type: 3}
       propertyPath: m_Name
       value: SM_pie_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981183873264278206, guid: 34f994a59ce7c6b4492820a3b2b93d94, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7758001291706105860, guid: 34f994a59ce7c6b4492820a3b2b93d94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13646,6 +13754,10 @@ PrefabInstance:
     - target: {fileID: 2751662096041857143, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
       propertyPath: m_Name
       value: SM_mustard (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751662096041857143, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270755397426416333, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14503,6 +14615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_ketchup (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 195187046821674204, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 720190257217168998, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5528045
@@ -14604,6 +14720,10 @@ PrefabInstance:
     - target: {fileID: 9022083296025433297, guid: 0456aa389cf5ec340862f7cc80b34e51, type: 3}
       propertyPath: m_Name
       value: SM_coffee_pot (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022083296025433297, guid: 0456aa389cf5ec340862f7cc80b34e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15128,6 +15248,10 @@ PrefabInstance:
     - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_Name
       value: SM_stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 680221406506774949, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15892,7 +16016,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &784818371
 GameObject:
@@ -15992,6 +16116,10 @@ PrefabInstance:
     - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
       propertyPath: m_Name
       value: SM_plate (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16260,6 +16388,10 @@ PrefabInstance:
     - target: {fileID: 6160769286325298595, guid: ecbeea5d98092fc43a6d389fef937980, type: 3}
       propertyPath: m_Name
       value: SM_basket (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160769286325298595, guid: ecbeea5d98092fc43a6d389fef937980, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6788230492320579353, guid: ecbeea5d98092fc43a6d389fef937980, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16689,6 +16821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_chewing_gum_machine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1230133636271724965, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1898690188944343839, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6698046
@@ -16914,6 +17050,10 @@ PrefabInstance:
     - target: {fileID: 7874075170889090544, guid: eea87e35043f7b544a8a3b2c6ec2331e, type: 3}
       propertyPath: m_Name
       value: SM_pie_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874075170889090544, guid: eea87e35043f7b544a8a3b2c6ec2331e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17198,7 +17338,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &843659893
 PrefabInstance:
@@ -17273,6 +17413,10 @@ PrefabInstance:
     - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_Name
       value: SM_nachos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928482699707489886, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17493,6 +17637,10 @@ PrefabInstance:
     - target: {fileID: 1929259610958700084, guid: 273cf55c7e4d02943a6debfb017e3f85, type: 3}
       propertyPath: m_Name
       value: SM_fish_stick_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929259610958700084, guid: 273cf55c7e4d02943a6debfb017e3f85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18270,7 +18418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914234934}
   m_LocalRotation: {x: -0.06418399, y: 0, z: 0, w: 0.9979381}
-  m_LocalPosition: {x: 1.973, y: 0.851, z: -3.193}
+  m_LocalPosition: {x: 7.33, y: 0.851, z: -3.193}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18639,6 +18787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_lamp_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6541658260526226398, guid: ef19182e38bc07842894ebdfb1416c54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18971,6 +19123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_ashtray (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2892154822931292140, guid: 021ddc3d2e76bba419f105b8196dfbce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19095,6 +19251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_plate (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19129,7 +19289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971574893}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -1.99, y: -1.17, z: -5.67}
+  m_LocalPosition: {x: -2.4400005, y: -1.17, z: -5.67}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19342,7 +19502,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990554217
 PrefabInstance:
@@ -19542,6 +19702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_cigarette (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 229813926887908016, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 611264831313885194, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.6603045
@@ -19705,6 +19869,10 @@ PrefabInstance:
     - target: {fileID: 8859321397100512421, guid: f6ace0e6cbef57a4fa349be7df841f8a, type: 3}
       propertyPath: m_Name
       value: SM_coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859321397100512421, guid: f6ace0e6cbef57a4fa349be7df841f8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20664,6 +20832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_showcase
       objectReference: {fileID: 0}
+    - target: {fileID: 4919402203193132662, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5696748490486029516, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.678804
@@ -20765,6 +20937,10 @@ PrefabInstance:
     - target: {fileID: 4307463230343900308, guid: bdfeb4a8994e7ba48a40f7c5426739d9, type: 3}
       propertyPath: m_Name
       value: SM_soda (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307463230343900308, guid: bdfeb4a8994e7ba48a40f7c5426739d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21035,6 +21211,10 @@ PrefabInstance:
     - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_Name
       value: SM_nachos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928482699707489886, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22136,6 +22316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fish_stick
       objectReference: {fileID: 0}
+    - target: {fileID: 1645547489585618, guid: c4a6d0ec5b9ecfd4c8b9cca27c029db1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 814597591212995432, guid: c4a6d0ec5b9ecfd4c8b9cca27c029db1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.293577
@@ -22798,6 +22982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_TV
       objectReference: {fileID: 0}
+    - target: {fileID: 5213099411422850580, guid: 453cc4b9020253640adb5db78a78a763, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22832,7 +23020,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181031498}
   m_LocalRotation: {x: -0.06418399, y: 0, z: 0, w: 0.9979381}
-  m_LocalPosition: {x: -1.427, y: 0.85, z: -3.373}
+  m_LocalPosition: {x: -7.43, y: 0.85, z: -3.373}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23037,6 +23225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_ice_cream_dispenser
       objectReference: {fileID: 0}
+    - target: {fileID: 5914135881625178146, guid: 772f638220fe2384ba61fe6a59247971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6438154685581445784, guid: 772f638220fe2384ba61fe6a59247971, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.552805
@@ -23160,6 +23352,10 @@ PrefabInstance:
     - target: {fileID: 1553006142311343064, guid: 374342f32ae898e44bf1adb915a181f8, type: 3}
       propertyPath: m_Name
       value: SM_fan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553006142311343064, guid: 374342f32ae898e44bf1adb915a181f8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2217656091448703330, guid: 374342f32ae898e44bf1adb915a181f8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23599,6 +23795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_french_fries (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859553599398907639, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.41796
@@ -24023,6 +24223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_soda
       objectReference: {fileID: 0}
+    - target: {fileID: 4307463230343900308, guid: bdfeb4a8994e7ba48a40f7c5426739d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24044,6 +24248,10 @@ PrefabInstance:
     - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_Name
       value: SM_stool (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 680221406506774949, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24410,6 +24618,10 @@ PrefabInstance:
     - target: {fileID: 7026283237492215185, guid: 777d90f373779be418bc37cf39a11e79, type: 3}
       propertyPath: m_Name
       value: SM_pie_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026283237492215185, guid: 777d90f373779be418bc37cf39a11e79, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7694839545559324459, guid: 777d90f373779be418bc37cf39a11e79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24963,6 +25175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fork
       objectReference: {fileID: 0}
+    - target: {fileID: 1894127876923040071, guid: f966a43e5d63942469943b82650b2c75, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25395,6 +25611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_tacos (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339758221249076224, guid: 70c4686fe4bca1847bf1f73094bf7041, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25783,6 +26003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stand
       objectReference: {fileID: 0}
+    - target: {fileID: 3738473836518992595, guid: 3d0a8d3a07b24f543a81b4b9c5038ea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4083193149772410985, guid: 3d0a8d3a07b24f543a81b4b9c5038ea9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5408044
@@ -25885,6 +26109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_lamp_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25968,6 +26196,10 @@ PrefabInstance:
     - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_Name
       value: SM_nachos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928482699707489886, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26695,6 +26927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_cash_desk
       objectReference: {fileID: 0}
+    - target: {fileID: 4325510951464152063, guid: 54332ee5f10fbcb4da2a45fa682cd220, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26840,6 +27076,10 @@ PrefabInstance:
     - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_Name
       value: SM_french_fries (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7859553599398907639, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27004,6 +27244,10 @@ PrefabInstance:
     - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
       propertyPath: m_Name
       value: SM_plate (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27309,6 +27553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_lamp_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27467,7 +27715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442237643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.21406251, y: -0.198, z: -4.234882}
+  m_LocalPosition: {x: -5.93, y: -0.198, z: -4.234882}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27478,7 +27726,7 @@ Transform:
   - {fileID: 829717871}
   - {fileID: 914234935}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1444129236
 PrefabInstance:
@@ -27552,15 +27800,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6241903983125939665, guid: 894062fcce5aaf84ba2e49b0b1da115d, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6241903983125939665, guid: 894062fcce5aaf84ba2e49b0b1da115d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.9134088
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6241903983125939665, guid: 894062fcce5aaf84ba2e49b0b1da115d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6645
+      value: 5.82
       objectReference: {fileID: 0}
     - target: {fileID: 6241903983125939665, guid: 894062fcce5aaf84ba2e49b0b1da115d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27854,6 +28102,10 @@ PrefabInstance:
     - target: {fileID: 6076430030384997944, guid: 5ed060c338cb91a4289dc5c3f018ac08, type: 3}
       propertyPath: m_Name
       value: SM_milkshake (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076430030384997944, guid: 5ed060c338cb91a4289dc5c3f018ac08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6852227140355456130, guid: 5ed060c338cb91a4289dc5c3f018ac08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28595,6 +28847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fan (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1553006142311343064, guid: 374342f32ae898e44bf1adb915a181f8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2217656091448703330, guid: 374342f32ae898e44bf1adb915a181f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.84
@@ -29117,6 +29373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stand_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6761136927323266923, guid: 894062fcce5aaf84ba2e49b0b1da115d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29178,6 +29438,10 @@ PrefabInstance:
     - target: {fileID: 4170441944135215921, guid: f389d263f633a5e4ca2033b94f79fc7a, type: 3}
       propertyPath: m_Name
       value: SM_donut_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170441944135215921, guid: f389d263f633a5e4ca2033b94f79fc7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29798,6 +30062,10 @@ PrefabInstance:
     - target: {fileID: 4919402203193132662, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
       propertyPath: m_Name
       value: SM_showcase (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4919402203193132662, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5696748490486029516, guid: 4e5d31811931f1c44848a6786fec8fc9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30793,6 +31061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_napkin_holder (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3788170027556860692, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4600875883505297838, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.2568045
@@ -31198,6 +31470,10 @@ PrefabInstance:
     - target: {fileID: 1995388197922899297, guid: 0fef6dc78f0be284aa2c5244b08ca6bf, type: 3}
       propertyPath: m_Name
       value: SM_cigarette_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995388197922899297, guid: 0fef6dc78f0be284aa2c5244b08ca6bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32053,6 +32329,10 @@ PrefabInstance:
     - target: {fileID: 3788170027556860692, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
       propertyPath: m_Name
       value: SM_napkin_holder (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788170027556860692, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4600875883505297838, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32986,6 +33266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_mustard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2751662096041857143, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3270755397426416333, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.523097
@@ -33149,6 +33433,10 @@ PrefabInstance:
     - target: {fileID: 1894127876923040071, guid: f966a43e5d63942469943b82650b2c75, type: 3}
       propertyPath: m_Name
       value: SM_fork (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894127876923040071, guid: f966a43e5d63942469943b82650b2c75, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33775,7 +34063,7 @@ MonoBehaviour:
   despawnFoodPoint: {fileID: 914234935}
   useDayInUserData: 1
   dayIndex: 0
-  NeedTutorial: 0
+  NeedTutorial: 1
 --- !u!1001 &1748374107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33890,6 +34178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_soda (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4307463230343900308, guid: bdfeb4a8994e7ba48a40f7c5426739d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33911,6 +34203,10 @@ PrefabInstance:
     - target: {fileID: 5914135881625178146, guid: 772f638220fe2384ba61fe6a59247971, type: 3}
       propertyPath: m_Name
       value: SM_ice_cream_dispenser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914135881625178146, guid: 772f638220fe2384ba61fe6a59247971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6438154685581445784, guid: 772f638220fe2384ba61fe6a59247971, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34283,6 +34579,10 @@ PrefabInstance:
     - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_Name
       value: SM_nachos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116479496136770788, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928482699707489886, guid: f80f4ca417c304e4faabb948efdabe38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34758,6 +35058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_coffee_pot
       objectReference: {fileID: 0}
+    - target: {fileID: 9022083296025433297, guid: 0456aa389cf5ec340862f7cc80b34e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35152,6 +35456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_french_fries
       objectReference: {fileID: 0}
+    - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859553599398907639, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.3764615
@@ -35213,6 +35521,10 @@ PrefabInstance:
     - target: {fileID: 3788170027556860692, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
       propertyPath: m_Name
       value: SM_napkin_holder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788170027556860692, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4600875883505297838, guid: 9a20461953768ec41bc5114208b800a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35375,6 +35687,10 @@ PrefabInstance:
     - target: {fileID: 2751662096041857143, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
       propertyPath: m_Name
       value: SM_mustard (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751662096041857143, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270755397426416333, guid: 6d7c28c04170fcb46a8226b049ed7611, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35561,6 +35877,10 @@ PrefabInstance:
     - target: {fileID: 195187046821674204, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
       propertyPath: m_Name
       value: SM_ketchup (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 195187046821674204, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 720190257217168998, guid: e7f8eb502accb3c40be99843ce56f0d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35804,6 +36124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stool (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 680221406506774949, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.4408045
@@ -35865,6 +36189,10 @@ PrefabInstance:
     - target: {fileID: 4800577420793732505, guid: 3ffe304c59eb39244b2f32aaa5d51996, type: 3}
       propertyPath: m_Name
       value: SM_chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800577420793732505, guid: 3ffe304c59eb39244b2f32aaa5d51996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5320091560457242403, guid: 3ffe304c59eb39244b2f32aaa5d51996, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36052,6 +36380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_french_fries (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375047876157690957, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859553599398907639, guid: 3d5bf10b7c4eac542ad9a46f7887aee1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.4697824
@@ -36215,6 +36547,10 @@ PrefabInstance:
     - target: {fileID: 4519924359843863928, guid: 5bc84e678f1941741b4115ab856e606c, type: 3}
       propertyPath: m_Name
       value: SM_salt_shaker (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519924359843863928, guid: 5bc84e678f1941741b4115ab856e606c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36596,6 +36932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_plate (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36803,6 +37143,10 @@ PrefabInstance:
     - target: {fileID: 1310326819566786486, guid: 3cc3c58f594e5704f848b5b2dd040a91, type: 3}
       propertyPath: m_Name
       value: SM_table
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310326819566786486, guid: 3cc3c58f594e5704f848b5b2dd040a91, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1829842299241254156, guid: 3cc3c58f594e5704f848b5b2dd040a91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37564,6 +37908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_chewing_gum_machine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1230133636271724965, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1898690188944343839, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.97680426
@@ -38288,6 +38636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_pepper_pot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6707894117548729239, guid: d8d7080fe76e2564b8bf7cb222a24f79, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38474,6 +38826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_plate (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6810685709714959439, guid: 1c0a355bcaa990c45960987952c6335c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38495,6 +38851,10 @@ PrefabInstance:
     - target: {fileID: 1624969230862863198, guid: 2daaac5d1770f904fbc77d8650801871, type: 3}
       propertyPath: m_Name
       value: SM_coffee_maker (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624969230862863198, guid: 2daaac5d1770f904fbc77d8650801871, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2145644488951140836, guid: 2daaac5d1770f904fbc77d8650801871, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38839,6 +39199,10 @@ PrefabInstance:
     - target: {fileID: 1102466616412381180, guid: 4adf80bcc526ae547826f06d63e87ad3, type: 3}
       propertyPath: m_Name
       value: SM_blinds (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102466616412381180, guid: 4adf80bcc526ae547826f06d63e87ad3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39322,7 +39686,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -39353,6 +39717,10 @@ PrefabInstance:
     - target: {fileID: 4970940029992369042, guid: 33056ede82e0c444786421b720679c1e, type: 3}
       propertyPath: m_Name
       value: SM_donut_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970940029992369042, guid: 33056ede82e0c444786421b720679c1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5744204101139734824, guid: 33056ede82e0c444786421b720679c1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39601,6 +39969,10 @@ PrefabInstance:
     - target: {fileID: 1230133636271724965, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
       propertyPath: m_Name
       value: SM_chewing_gum_machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230133636271724965, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1898690188944343839, guid: 0ac0091e971a44644b825d85b6a1f5cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39884,6 +40256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stand_2
       objectReference: {fileID: 0}
+    - target: {fileID: 5633559103977967318, guid: 7691139e0f3b59445890c5c258cc7e02, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40042,14 +40418,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054436992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -0.65, z: -5.29}
+  m_LocalPosition: {x: -5.43, y: -0.65, z: -5.29}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 308519163}
   - {fileID: 1805487726}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2065419716
 PrefabInstance:
@@ -40460,6 +40836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_pancake
       objectReference: {fileID: 0}
+    - target: {fileID: 2370618647564998486, guid: 9f93283d1b9d7b84dbd61c2d5603ea70, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147437474439433708, guid: 9f93283d1b9d7b84dbd61c2d5603ea70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.4598045
@@ -40583,6 +40963,10 @@ PrefabInstance:
     - target: {fileID: 229813926887908016, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
       propertyPath: m_Name
       value: SM_cigarette (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 229813926887908016, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 611264831313885194, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41074,6 +41458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_coffee_maker (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1624969230862863198, guid: 2daaac5d1770f904fbc77d8650801871, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2145644488951140836, guid: 2daaac5d1770f904fbc77d8650801871, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.37580442
@@ -41175,6 +41563,10 @@ PrefabInstance:
     - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
       propertyPath: m_Name
       value: SM_lamp_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7902633588117137231, guid: 28bd2101cb7f4fb47b9e8f27c0d7988c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41384,6 +41776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_stool (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 160846935367068447, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 680221406506774949, guid: 0b4e5ba50f7ded94a9faa56ad13a62c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4408045
@@ -41445,6 +41841,10 @@ PrefabInstance:
     - target: {fileID: 229813926887908016, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
       propertyPath: m_Name
       value: SM_cigarette
+      objectReference: {fileID: 0}
+    - target: {fileID: 229813926887908016, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 611264831313885194, guid: 6d70cb5cc0a4d0b4e8c810ced7341b42, type: 3}
       propertyPath: m_LocalPosition.x

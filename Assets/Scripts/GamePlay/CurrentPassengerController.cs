@@ -100,7 +100,7 @@ public class CurrentPassengerController : MonoBehaviour
 
     void OnWalkingOut()
     {
-        //VFXAnimationManager.Instance.PlayHappyEmoji();
+        VFXAnimationManager.Instance.PlayHappyEmoji();
         if(coroutine != null)
         {
             StopCoroutine(coroutine);
