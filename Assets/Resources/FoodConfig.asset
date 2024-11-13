@@ -40,10 +40,18 @@ MonoBehaviour:
     - {fileID: -7594952378349075063, guid: d66ebf22eb5b1b648bd328f2ff02ff54, type: 3}
     - {fileID: 6321073394782621133, guid: db21645d6bd21844092c3fc5dd5cb63b, type: 3}
   - Id: 3
+    Name: Pancake
+    Icon: {fileID: 1088615676, guid: b2be3b58db778ec489f24ae593a49faa, type: 3}
+    Price: 15
+    DayUnlock: 0
+    foodStacks:
+    - {fileID: 584515803396766361, guid: 76b841cb5f7ec784c94e5979bf9664c4, type: 3}
+    - {fileID: 3650652219586640841, guid: 281c91e0d492d724695000a1ee8f0286, type: 3}
+  - Id: 4
     Name: Big Burger
     Icon: {fileID: -1312621042, guid: 64eca55c6e671ed4abf23e9434d2dcab, type: 3}
     Price: 55
-    DayUnlock: 2
+    DayUnlock: 100
     foodStacks:
     - {fileID: -9007602317421284550, guid: 840f727323424264a982bf2bbb2e40b1, type: 3}
     - {fileID: -5269602377006242830, guid: bb5ce048039f5af41946463254bf2213, type: 3}

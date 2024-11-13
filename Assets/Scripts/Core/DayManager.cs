@@ -179,7 +179,7 @@ public class DayManager : Singleton<DayManager>, IOnStart
             else
             {
                 //VFXAnimationManager.Instance.PlayAngryEmoji();
-                GameUI.Instance.Get<UIRedScreen>().Show();
+                //GameUI.Instance.Get<UIRedScreen>().Show();
                 //StartCoroutine(EndGameResult(false));
 
                 foreach (FoodController controller in currentFoodControllers)

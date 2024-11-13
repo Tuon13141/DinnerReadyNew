@@ -20,16 +20,20 @@ MonoBehaviour:
         FoodId: 1
       - Quantity: 1
         FoodId: 0
+      - Quantity: 1
+        FoodId: 3
     - FoodOrderList:
       - Quantity: 2
         FoodId: 0
-      - Quantity: 1
+      - Quantity: 3
         FoodId: 1
     - FoodOrderList:
       - Quantity: 1
         FoodId: 0
       - Quantity: 2
         FoodId: 1
+      - Quantity: 2
+        FoodId: 3
   - DayID: 1
     PassengerList:
     - FoodOrderList:
@@ -75,20 +79,29 @@ MonoBehaviour:
   - DayID: 3
     PassengerList:
     - FoodOrderList:
+      - Quantity: 3
+        FoodId: 1
+      - Quantity: 2
+        FoodId: 0
+      - Quantity: 2
+        FoodId: 3
+      - Quantity: 2
+        FoodId: 2
+    - FoodOrderList:
       - Quantity: 1
         FoodId: 1
       - Quantity: 3
         FoodId: 0
-      - Quantity: 2
-        FoodId: 3
       - Quantity: 1
-        FoodId: 0
+        FoodId: 3
+      - Quantity: 2
+        FoodId: 2
     - FoodOrderList:
-      - Quantity: 2
-        FoodId: 3
-      - Quantity: 2
+      - Quantity: 3
+        FoodId: 1
+      - Quantity: 3
         FoodId: 0
-      - Quantity: 1
+      - Quantity: 2
         FoodId: 3
       - Quantity: 2
         FoodId: 2
