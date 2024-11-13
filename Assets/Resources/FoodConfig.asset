@@ -35,7 +35,7 @@ MonoBehaviour:
     Name: Fries
     Icon: {fileID: 2040387194, guid: bdbcccaa1a440a04bab070495fc905e6, type: 3}
     Price: 10
-    DayUnlock: 1
+    DayUnlock: 0
     foodStacks:
     - {fileID: -7594952378349075063, guid: d66ebf22eb5b1b648bd328f2ff02ff54, type: 3}
     - {fileID: 6321073394782621133, guid: db21645d6bd21844092c3fc5dd5cb63b, type: 3}

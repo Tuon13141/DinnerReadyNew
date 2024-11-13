@@ -4027,6 +4027,7 @@ GameObject:
   - component: {fileID: 5447229851428018969}
   - component: {fileID: 4260776400875697157}
   - component: {fileID: 7572195246873957597}
+  - component: {fileID: 5185060873280676950}
   m_Layer: 5
   m_Name: UIInGame
   m_TagString: Untagged
@@ -4108,6 +4109,38 @@ MonoBehaviour:
   progressPanel: {fileID: 1885571176681826688}
   dayText: {fileID: 4525585526664464657}
   passengerText: {fileID: 4288744723813430094}
+--- !u!114 &5185060873280676950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8914316040136040823}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b1144736995c440ad587f2b5c524af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelPrefab: {fileID: 2351520076750659600, guid: 57d0126b6c0f11b4c830e2f9b34c5373, type: 3}
+  buttons:
+  - {fileID: 7228132203240843719}
+  - {fileID: 7115825932471247920}
+  - {fileID: 947430381479505656}
+  - {fileID: 3889833680047245879}
+  - {fileID: 5419391455455797866}
+  - {fileID: 3086065482746517020}
+  - {fileID: 115641697365411964}
+  - {fileID: 3256404353802479003}
+  - {fileID: 7356847037881370545}
+  - {fileID: 6101988434978984957}
+  - {fileID: 4244200608910707591}
+  - {fileID: 1787736223676546879}
+  - {fileID: 661792968121638697}
+  - {fileID: 5832186705904354537}
+  - {fileID: 1842040076448625785}
+  - {fileID: 468125322699417549}
+  - {fileID: 6647269308259983178}
+  - {fileID: 5724253522017432835}
 --- !u!1 &9187876546542820132
 GameObject:
   m_ObjectHideFlags: 0

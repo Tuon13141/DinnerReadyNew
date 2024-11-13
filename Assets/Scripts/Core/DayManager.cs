@@ -274,7 +274,7 @@ public class DayManager : Singleton<DayManager>, IOnStart
         }
         else
         {
-            yield return new WaitForSeconds(0.25f);
+            yield return new WaitForSeconds(0.75f);
             GameManager.Instance.ChangeState(GameStates.Lose);
         }
        

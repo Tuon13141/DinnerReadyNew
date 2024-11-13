@@ -72,8 +72,14 @@ public class CurrentPassengerController : MonoBehaviour
         if (coroutine != null)
         {
             StopCoroutine(coroutine);
-        }        
-        
+        }
+
+        if (!dayManager.NeedTutorial)
+        {
+            GameUI.Instance.Get<UIChatBox>().Show();
+        }
+
+      
         RandomIdleAnim();
 
         coroutine = StartCoroutine(MoveAndRotate(waitForBillPoint.position, 0f, 80f, 0.25f));
