@@ -34063,7 +34063,7 @@ MonoBehaviour:
   despawnFoodPoint: {fileID: 914234935}
   useDayInUserData: 1
   dayIndex: 0
-  NeedTutorial: 1
+  NeedTutorial: 0
 --- !u!1001 &1748374107
 PrefabInstance:
   m_ObjectHideFlags: 0
