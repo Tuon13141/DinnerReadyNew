@@ -320,6 +320,4 @@ MonoBehaviour:
   holder: {fileID: 2681195753281510632}
   chatText: {fileID: 3826320079114166368}
   chatList:
-  - I'd want to order !
-  - Hello.
-  - Greetings.
+  - Hi ! How much is it ?

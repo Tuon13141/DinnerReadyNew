@@ -7,8 +7,11 @@ public class VFXAnimationManager : Singleton<VFXAnimationManager>
 {
     [SerializeField] GameObject happyEmoji;
     [SerializeField] GameObject angryEmoji;
+    [SerializeField] GameObject checkMark;
+
     Vector3 happyEmojiStartPosition;
     Vector3 angryEmojiStartPosition;
+    Vector3 checkMarkStartPosition;
 
     bool stopPulsingAnim = false;   
 
@@ -16,6 +19,7 @@ public class VFXAnimationManager : Singleton<VFXAnimationManager>
     {
         happyEmojiStartPosition = happyEmoji.transform.position;
         angryEmojiStartPosition = angryEmoji.transform.position;
+        checkMarkStartPosition = checkMark.transform.position;
     }
 
     public void PulsingAnimation(GameObject uiObject, Vector3 maxScale, Vector3 minScale, float time, bool needToStopMidWhere = false)
@@ -55,8 +59,8 @@ public class VFXAnimationManager : Singleton<VFXAnimationManager>
         angryEmoji.SetActive(true);
        
         angryEmoji.transform.localScale = Vector3.one;
-        //StartCoroutine(ScaleOverTime(angryEmoji, 0.5f, new Vector3(1.3f, 1.3f, 1.3f), new Vector3(1f, 1f, 1f), true));
-        StartCoroutine(MoveAndFade(angryEmoji, angryEmojiStartPosition, Vector3Int.up, 1f, 2));
+        StartCoroutine(ScaleOverTime(angryEmoji, 0.5f, new Vector3(1.3f, 1.3f, 1.3f), new Vector3(1f, 1f, 1f), true));
+        //StartCoroutine(MoveAndFade(angryEmoji, angryEmojiStartPosition, Vector3Int.up, 2f, 0.5f));
     }
 
     public void StopAngryEmoji()
@@ -117,6 +121,32 @@ public class VFXAnimationManager : Singleton<VFXAnimationManager>
         }
 
         gameObject.transform.position = firstPosition;
+        gameObject.SetActive(false);
+    }
+
+    public void PlayCheckMark()
+    {
+        StartCoroutine(ScaleBigAndDisapear(checkMark, Vector3.zero, Vector3.one, 0.2f, 0.7f));
+    }
+
+    IEnumerator ScaleBigAndDisapear(GameObject gameObject, Vector3 startScale, Vector3 endScale, float timeToScale, float stayTime)
+    {
+        gameObject.SetActive(true);
+        gameObject.transform.localScale = startScale;
+
+        float elapsedTime = 0;
+
+        while (elapsedTime < timeToScale)
+        {
+            gameObject.transform.localScale = Vector3.Lerp(startScale, endScale, elapsedTime / timeToScale);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        gameObject.transform.localScale = endScale;
+
+        yield return new WaitForSeconds(stayTime);
         gameObject.SetActive(false);
     }
 }

@@ -18,7 +18,7 @@ public class GameManager : Singleton<GameManager>
         base.Awake();
         Game.Launch();
         UserData = Game.Data.Load<UserData>();
-        
+        UserData.coin = 0;
     }
    
 

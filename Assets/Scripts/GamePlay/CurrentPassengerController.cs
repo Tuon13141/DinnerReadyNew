@@ -19,6 +19,8 @@ public class CurrentPassengerController : MonoBehaviour
     Coroutine coroutine;
 
     bool firstLoad = true;
+
+    [SerializeField] bool OnlyPlayOnce = false;
     public void SetPassenger(GameObject passenger, PassengerObjectKey key)
     {
         currentPassengerKey = key;
@@ -74,8 +76,9 @@ public class CurrentPassengerController : MonoBehaviour
             StopCoroutine(coroutine);
         }
 
-        if (!dayManager.NeedTutorial)
+        if (!dayManager.NeedTutorial && OnlyPlayOnce)
         {
+            OnlyPlayOnce = false;
             GameUI.Instance.Get<UIChatBox>().Show();
         }
 

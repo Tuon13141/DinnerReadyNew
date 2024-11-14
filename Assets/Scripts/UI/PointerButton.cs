@@ -11,7 +11,7 @@ public class PointerButton : MonoBehaviour
 
     IEnumerator AutoHide()
     {
-        yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSeconds(.5f);
 
         Destroy(gameObject);
     }

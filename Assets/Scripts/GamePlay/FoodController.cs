@@ -59,14 +59,20 @@ public class FoodController : MonoBehaviour
                 StartCoroutine(LerpPosition(foodSpot.transform.position, moveTime));
                 break;
             case FoodStage.OnBilled:
-                transform.parent = despawnFoodPoint;
-                foodSpot.IsHadFood = false;
-                foodSpot.FlyingCoinIcon();
-                StartCoroutine(LerpPosition(despawnFoodPoint.position, moveTime, true));
+                StartCoroutine(OnBilled());
                 break;
             default:
                 break;
         }
+    }
+
+    IEnumerator OnBilled()
+    {
+        yield return new WaitForSeconds(.5f);
+        transform.parent = despawnFoodPoint;
+        foodSpot.IsHadFood = false;
+        foodSpot.FlyingCoinIcon();
+        StartCoroutine(LerpPosition(despawnFoodPoint.position, moveTime, true));
     }
 
     private void ExitCurrentState()
